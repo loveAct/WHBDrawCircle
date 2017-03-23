@@ -13,6 +13,7 @@
 		18417DB31E836E7A003682C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18417DB11E836E7A003682C9 /* Main.storyboard */; };
 		18417DB51E836E7A003682C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18417DB41E836E7A003682C9 /* Assets.xcassets */; };
 		18417DB81E836E7A003682C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18417DB61E836E7A003682C9 /* LaunchScreen.storyboard */; };
+		18417DC11E836E9E003682C9 /* WHBDrawCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18417DC01E836E9E003682C9 /* WHBDrawCircleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		18417DB41E836E7A003682C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18417DB71E836E7A003682C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18417DB91E836E7A003682C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18417DBF1E836E9E003682C9 /* WHBDrawCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHBDrawCircleView.h; sourceTree = "<group>"; };
+		18417DC01E836E9E003682C9 /* WHBDrawCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHBDrawCircleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				18417DAC1E836E7A003682C9 /* AppDelegate.m */,
 				18417DAE1E836E7A003682C9 /* ViewController.h */,
 				18417DAF1E836E7A003682C9 /* ViewController.m */,
+				18417DBF1E836E9E003682C9 /* WHBDrawCircleView.h */,
+				18417DC01E836E9E003682C9 /* WHBDrawCircleView.m */,
 				18417DB11E836E7A003682C9 /* Main.storyboard */,
 				18417DB41E836E7A003682C9 /* Assets.xcassets */,
 				18417DB61E836E7A003682C9 /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 			files = (
 				18417DB01E836E7A003682C9 /* ViewController.m in Sources */,
 				18417DAD1E836E7A003682C9 /* AppDelegate.m in Sources */,
+				18417DC11E836E9E003682C9 /* WHBDrawCircleView.m in Sources */,
 				18417DAA1E836E7A003682C9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
